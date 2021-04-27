@@ -4496,7 +4496,8 @@ a.is-disabled {
     height: auto;
     border-radius: 12px 0 0 12px;
     position: relative;
-    display: flex
+    display: flex;
+  
 }
 
 #video-homepage-overlay .bannerFullVideoOverlay video {
@@ -5012,7 +5013,7 @@ input[type="range"]:focus::-ms-fill-upper {
 
 @media only screen and (min-width: 851px) {
     .bannerHomepage .contentMedia {
-        background-image: none !important
+        background-image: none 
     }
 }
 
@@ -5029,7 +5030,7 @@ input[type="range"]:focus::-ms-fill-upper {
 .bannerHomepage .contentMedia .bannerFullVideo video {
     width: 100vw;
     max-width: 685px;
-    background-color: #63963e;
+    /* background-color: #63963e; */
     border-radius: 12px;
     -webkit-box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.2) !important;
     -moz-box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.2) !important;
@@ -5664,7 +5665,8 @@ ul.slick-dots li:after {
 }
 
 .pantauRestorasiGambut {
-    padding-top: 120px
+    padding-top: 120px;
+    padding-bottom: 120px
 }
 
 @media only screen and (max-width: 1200px) {
@@ -5689,7 +5691,7 @@ ul.slick-dots li:after {
 .pantauRestorasiGambut .contentPantauRestorasiGambut .contentMAP {
     width: 100%;
     height: 500px;
-    background-image: url("../../img/homepage/Homepage-Peta-min.jpg");
+    background-image: url("/assets/images/pokja.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
