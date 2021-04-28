@@ -5354,7 +5354,8 @@ ul.slick-dots li:after {
 .primsGambutDibutuhkan .contentPrimsGambutDibutuhkan a {
     display: block;
     text-decoration: none;
-    cursor: unset
+    cursor: unset;
+    width: 100% !important;
 }
 
 .primsGambutDibutuhkan .contentPrimsGambutDibutuhkan .itemsPrimsGambutDibutuhkan {
@@ -5568,7 +5569,8 @@ ul.slick-dots li:after {
 }
 
 .fiturUtamaPrimsGambut .contentFiturUtamaPrimsGambut .itemsFiturUtamaPrimsGambut .iconFUPG img {
-    width: 120px;
+    width: auto;
+    /* height: auto; */
     height: 120px;
     display: block
 }
@@ -5944,13 +5946,13 @@ ul.slick-dots li:after {
     background-color: #ffc94d
 }
 
-.intisari .contentIntisari .boxsIntisari .column-1:hover,
+/* .intisari .contentIntisari .boxsIntisari .column-1:hover,
 .intisari .contentIntisari .boxsIntisari .column-2:hover,
 .intisari .contentIntisari .boxsIntisari .column-1-3:hover {
     -webkit-box-shadow: 2px 8px 16px 0 rgba(0, 0, 0, 0.15) !important;
     -moz-box-shadow: 2px 8px 16px 0 rgba(0, 0, 0, 0.15) !important;
     box-shadow: 2px 8px 16px 0 rgba(0, 0, 0, 0.15) !important
-}
+} */
 
 .intisari .contentIntisari .boxsIntisari .column-1 {
     width: 280px;
@@ -5967,7 +5969,7 @@ ul.slick-dots li:after {
     width: 80px;
     height: 80px;
     margin: 0 auto;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     background-size: 80px 80px
 }
 
@@ -6261,7 +6263,7 @@ ul.slick-dots li:after {
 .intisari .contentIntisari .boxsIntisari .column-1-3 a .in-Column-1 .icon {
     width: 80px;
     height: 80px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     background-color: transparent;
     background-size: 80px 80px;
     position: absolute
@@ -6842,4 +6844,23 @@ ul.slick-dots li:after {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%)
+}
+
+/* additional css */
+#new-green-button {
+    width: 15% !important;
+}
+
+.valnumber {
+    font-size: 36px;
+    line-height: 36px;
+    font-family: "Barlow Semibold";
+    color: #303030;
+    margin: 16px 0 0 0;
+    font-style: normal;
+}
+
+.valnumber span {
+    font-size: 16px;
+    font-weight: normal;
 }
